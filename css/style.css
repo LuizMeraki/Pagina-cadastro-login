@@ -144,8 +144,9 @@ section {
 @media (max-width: 1090px) {
      section {
           flex-direction: column;
+          justify-content: center;
           gap: 0;
-          padding: 3rem 0;
+          padding: 2.1rem 0;
           box-sizing: border-box;
      }
      .title-and-image img {
