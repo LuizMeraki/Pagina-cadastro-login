@@ -24,6 +24,7 @@ section {
      width: 90%;
      max-width: 1600px;
      display: flex;
+     justify-content: center;
      align-items: center;
      gap: 10%;
      margin: 0 auto;
@@ -141,13 +142,10 @@ section {
 /* MEDIA QUERY */
 
 @media (max-width: 1090px) {
-     body {
-          height: 100%;
-     }
      section {
           flex-direction: column;
           gap: 0;
-          padding: 2rem 0;
+          padding: 3rem 0;
           box-sizing: border-box;
      }
      .title-and-image img {
