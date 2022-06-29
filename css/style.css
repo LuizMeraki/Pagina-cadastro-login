@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat+Alternates:wght@100;400&family=Montserrat:wght@200;300;500;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Source+Sans+Pro:wght@200&display=swap');
 
 * {
+     font-family: 'Open Sans', sans-serif;
      margin: 0;
      padding: 0;
 }
@@ -8,46 +9,40 @@
 body {
      width: 100%;
      height: 100vh;
-}
-
-body {
-     font-family: 'Open Sans', sans-serif;
      font-size: 1rem;
      color: #fff;
      background-color: #0e0d21;
 }
 
+main, section {
+     height: 100%;
+}
+
 /* CONTENT AREA */
 
 section {
+     width: 90%;
      max-width: 1600px;
-     height: 100%;
      display: flex;
-     justify-content: center;
      align-items: center;
      gap: 10%;
      margin: 0 auto;
-     padding: 3rem 3rem 2rem 3rem;
-     box-sizing: border-box;
-}
-
-.content {
-     width: 80%;
-     height: 90%;
-     display: flex;
-     gap: 10%;
 }
 
 /* TITLE AND IMAGE */
+.title-and-image {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
 
 .title-and-image h1 {
      color: #54d97a;
      font-size: 2.4rem;
-     padding-top: 2rem;
 }
 
-section img {
-     width: 55%;
+.title-and-image figure {
+     width: 50%;
      margin: 3rem 0 0 6rem;
 }
 
@@ -55,22 +50,22 @@ section img {
 
 .login-area { 
      display: flex;
+     flex-direction: column;
      justify-content: center;
-     align-items: center;
 }
 
 .card {
      width: 400px;
-     height: 85%;
-     max-width: 390px;
-     max-height: 510px;
-     min-height: 450px;
+     height: 100%;
+     max-height: 550px;
+     min-height: 480px;
      background-color: #1c1a3f;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
      padding: 20px;
      border-radius: 20px;
+     box-shadow: 0 0 10px 4px #00000047;
      box-sizing: border-box;
 }
 
@@ -81,7 +76,7 @@ section img {
      font-size: 2rem;
 }
 
-.login-area form {
+.login-area form, .login-area form label {
      display: flex;
      flex-direction: column;
 }
@@ -89,17 +84,14 @@ section img {
 .login-area form label {
      font-size: 0.9rem;
      font-weight: 600;
-     text-transform: uppercase;
-     display: flex;
-     flex-direction: column;
-     
+     text-transform: uppercase;  
 }
 
 .login-area form label input {
      color: #9a9a9a;
      font-size: 1rem;
      height: 35px;
-     margin: 7px 0 13px 0px;
+     margin: 7px 0 15px 0px;
      padding: 10px;
      box-sizing: border-box;
      border: none;
@@ -111,7 +103,7 @@ section img {
      font-size: 0.8rem;
 }
 
-.login-area form a {
+.login-area form a, .login-area form a:visited {
      font-size: 0.9rem;
      color: #403d8e;
      text-decoration: none;
@@ -132,46 +124,41 @@ section img {
      cursor: pointer;
 }
 
+.login-area form button:disabled {
+     cursor: not-allowed;
+}
+
 .card span {
      text-align: center;
      font-size: 0.7rem;
-     margin-top: 1.2rem;
 }
 
 .card span a {
-     text-decoration: none;
      color: #3ca159;
      transition: .3s;
 }
 
 /* MEDIA QUERY */
 
-@media (max-width: 1075px) {
-     section {
-          gap: 5%;
+@media (max-width: 1090px) {
+     body {
+          height: 100%;
      }
-     .title-and-image img {
-          display: none;
-     }
-}
-
-@media (max-width: 1020px) {
      section {
           flex-direction: column;
           gap: 0;
           padding: 2rem 0;
-          height: 100%;
+          box-sizing: border-box;
+     }
+     .title-and-image img {
+          display: none;
      }
      .title-and-image h1 {
+          max-width: 550px;
           text-align: center;
-          max-width: 600px;
-          margin-bottom: 40px;
-          padding: 1.1rem 0;
-     }
-     .login-area {
-          display: block;
      }
      .card {
+          width: 95%;
           margin: 0 auto;
      }
 }
@@ -179,16 +166,8 @@ section img {
 @media (max-width: 680px) {
      .title-and-image h1 {
           font-size: 1.7rem;
-          width: 80%;
-          margin: 0 auto 40px auto;
      }
      .card h3 {
           font-size: 1.8rem;
-     }
-     .login-area {
-          width: 100%;
-     }
-     .card {
-          width: 90%;
      }
 }
