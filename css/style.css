@@ -145,10 +145,10 @@ main {
           flex-direction: column;
           justify-content: center;
           gap: 0;
-          padding: 2.2rem 0;
+          padding: 1.2rem 0;
      }
      .title-and-image {
-          padding-bottom: 1.5rem;
+          padding: 2.2rem 0;
           box-sizing: border-box;
      }
      .title-and-image figure {
