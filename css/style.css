@@ -23,7 +23,7 @@ main {
      align-items: center;
      gap: 10%;
      margin: 0 auto;
-     padding: 1.1rem;
+     padding: 1.1rem 0;
 }
 
 /* TITLE AND IMAGE */
