@@ -23,6 +23,7 @@ main {
      align-items: center;
      gap: 10%;
      margin: 0 auto;
+     padding: 1.1rem;
 }
 
 /* TITLE AND IMAGE */
@@ -54,12 +55,11 @@ main {
      width: 400px;
      height: 100%;
      max-height: 550px;
-     min-height: 480px;
      background-color: #1c1a3f;
      display: flex;
      flex-direction: column;
      justify-content: space-around;
-     padding: 20px;
+     padding: 2rem 1.3rem;
      border-radius: 20px;
      box-shadow: 2px 2px 6px #00000047;
      box-sizing: border-box;
@@ -70,6 +70,7 @@ main {
      text-transform: uppercase;
      color: #54d97a;
      font-size: 2rem;
+     margin-bottom: 2.7rem;
 }
 
 .login-area form, .login-area form label {
@@ -128,6 +129,7 @@ main {
 .card span {
      text-align: center;
      font-size: 0.7rem;
+     margin-top: 1.5rem;
 }
 
 .card span a {
@@ -139,13 +141,14 @@ main {
 
 @media (max-width: 1090px) {
      main {
-          min-height: 680px;
+          min-height: 580px;
           flex-direction: column;
           justify-content: center;
           gap: 0;
      }
      .title-and-image {
-          margin-bottom: 1.5rem;
+          padding-bottom: 1.5rem;
+          box-sizing: border-box;
      }
      .title-and-image figure {
           display: none;
