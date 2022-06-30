@@ -23,7 +23,6 @@ main {
      align-items: center;
      gap: 10%;
      margin: 0 auto;
-     padding: 1.1rem 0;
 }
 
 /* TITLE AND IMAGE */
@@ -144,6 +143,7 @@ main {
           min-height: 580px;
           flex-direction: column;
           justify-content: center;
+          padding: 1.1rem 0;
           gap: 0;
      }
      .title-and-image {
