@@ -18,6 +18,7 @@ main {
      width: 90%;
      height: 100%;
      max-width: 1600px;
+     min-height: 660px;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -143,8 +144,8 @@ main {
           min-height: 580px;
           flex-direction: column;
           justify-content: center;
-          padding: 1.1rem 0;
           gap: 0;
+          padding: 1.1rem 0;
      }
      .title-and-image {
           padding-bottom: 1.5rem;
