@@ -141,11 +141,11 @@ main {
 
 @media (max-width: 1090px) {
      main {
-          min-height: 580px;
+          /* min-height: 580px; */
           flex-direction: column;
           justify-content: center;
           gap: 0;
-          padding: 1.1rem 0;
+          padding: 2.2rem 0;
      }
      .title-and-image {
           padding-bottom: 1.5rem;
