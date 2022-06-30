@@ -139,7 +139,7 @@ main {
 
 @media (max-width: 1090px) {
      main {
-          min-height: 700px;
+          min-height: 685px;
           flex-direction: column;
           justify-content: center;
           gap: 0;
