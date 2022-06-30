@@ -16,7 +16,7 @@ body {
 
 main { 
      width: 90%;
-     height: 90%;
+     height: 100%;
      max-width: 1600px;
      display: flex;
      justify-content: center;
@@ -139,12 +139,15 @@ main {
 
 @media (max-width: 1090px) {
      main {
-          min-height: 685px;
+          min-height: 680px;
           flex-direction: column;
           justify-content: center;
           gap: 0;
      }
-     .title-and-image img {
+     .title-and-image {
+          margin-bottom: 1.5rem;
+     }
+     .title-and-image figure {
           display: none;
      }
      .title-and-image h1 {
