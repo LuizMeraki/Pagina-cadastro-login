@@ -18,7 +18,7 @@ main {
      width: 90%;
      height: 100%;
      max-width: 1600px;
-     min-height: 660px;
+     /*min-height: 660px;*/
      display: flex;
      justify-content: center;
      align-items: center;
@@ -140,8 +140,10 @@ main {
 /* MEDIA QUERY */
 
 @media (max-width: 1090px) {
+     body {
+          min-height: 580px;
+     }
      main {
-          /* min-height: 580px; */
           flex-direction: column;
           justify-content: center;
           gap: 0;
