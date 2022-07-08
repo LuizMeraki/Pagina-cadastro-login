@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/cadastro_style.css">
+     <title>Cadastro</title>
+</head>
+<body>
+     <main>
+          <div class="main-container">
+               <div class="left-content">
+                    <div class="title">
+                         <h1>Cadastre-se em nossa plataforma e venha desfrutar do melhor!</h1>
+                    </div>
+                    <figure class="vector-img">
+                         <img src="img/vector-cadastro.svg" alt="Image Vetor">
+                    </figure>
+               </div>
+               <div class="right-content">
+                    <div class="card">
+                         <form method="post" action="#" class="card-color">
+                              <div class="duble-input-container">
+                                   <div class="input-group">
+                                        <label for="name">Nome</label>
+                                        <input type="name" name="name" id="name" placeholder="Digite seu nome" required>
+                                   </div>
+                                   <div class="input-group">
+                                        <label for="sobrenome">Sobrenome</label>
+                                        <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome"required>
+                                   </div>
+                                   <div class="input-group">
+                                        <label for="idade">Idade</label>
+                                        <input type="number" name="idade" id="idade" required>
+                                   </div>
+                                   <div class="input-group">
+                                        <label for="endereco">Endereço</label>
+                                        <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço" required>
+                                   </div>
+                                   <div class="input-group">
+                                        <label for="bairro">Bairro</label>
+                                        <input type="text" name="bairro" id="bairro" placeholder="Digite seu bairro">
+                                   </div>
+                                   <div class="input-group">
+                                        <label for="email">E-mail</label>
+                                        <input type="email" name="email" id="email" placeholder="exemplo@provedor.com">
+                                   </div>
+                                   <div class="input-group">
+                                        <label for="senha">Crie uma senha</label>
+                                        <input type="password" name="senha" id="senha" placeholder="Crie uma senha" required>
+                                   </div>
+                                   <div class="input-group">
+                                        <label for="repetir-senha">Repitir a senha</label>
+                                        <input type="password" name="repetir-senha" id="repetir-senha" placeholder="Repita sua senha" required>
+                                   </div>
+                              </div>
+                              <div class="input-container">
+                                   <div class="id-text">
+                                        <span>Você deseja receber e-mail?</span>
+                                   </div>
+                                   <div class="radio-input-container">
+                                        <div class="align-input">
+                                             <label for="receber-email-sim">Sim</label>
+                                             <input type="radio" name="receber-email[]" id="receber-email-sim" value="true" required>
+                                        </div>
+                                        <div class="align-input">
+                                             <label for="receber-email-nao">Não</label>
+                                             <input type="radio" name="receber-email[]" id="receber-email-nao" value="false">
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="input-container">
+                                   <div class="id-text">
+                                        <span>Qual gênero de filme você mais assiste?</span>
+                                   </div>
+                                   <div class="checkbox-input-container">
+                                        <div class="align-input">
+                                             <label for="terror">Terror</label>
+                                             <input type="checkbox" name="genero[]" id="terror" value="terror" required>
+                                        </div>
+                                        <div class="align-input">
+                                             <label for="romance">Romance</label>
+                                             <input type="checkbox" name="genero[]" id="romance" value="romance">
+                                        </div>
+                                        <div class="align-input">
+                                             <label for="acao">Ação</label>
+                                             <input type="checkbox" name="genero[]" id="acao" value="ação">
+                                        </div>
+                                        <div class="align-input">
+                                             <label for="comedia">Comédia</label>
+                                             <input type="checkbox" name="genero[]" id="comedia" value="comédia">
+                                        </div>
+                                        <div class="align-input">
+                                             <label for="outros">Outros</label>
+                                             <input type="checkbox" name="genero[]" id="outros" value="outros">
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="submit-btn-form">
+                                   <button type="submit" title="Envio de dados indisponível" disabled>Cadastre-se</button>
+                              </div>
+                         </form>
+                    </div>
+               </div>
+          </div>
+     </main>
+</body>
+</html>
