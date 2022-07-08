@@ -1,8 +1,4 @@
 
-body {
-     min-height: 695px;
-}
-
 /* LEFT CONTENT */
 
 .left-content {
@@ -66,7 +62,7 @@ body {
 
 .card {
      display: block;
-     width: auto;
+     width: 510px;
      height: auto;
      max-height: none;
      padding: .8rem;
@@ -92,6 +88,9 @@ form span {
 }
 
 @media (max-width: 850px) {
+     .card {
+          width: 100%;
+     }
      .checkbox-input-container {
           justify-content: space-between;
      }
