@@ -1,0 +1,111 @@
+
+/* LEFT CONTENT */
+
+.left-content {
+     width: 90%;
+     margin: 0;
+     padding-right: 3rem;
+}
+
+.left-content h2 {
+     font-size: 1.5rem;
+}
+
+/* RIGTH CONTENT */
+
+.right-content {
+     padding: 0;
+}
+
+.duble-input-container {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+}
+
+.duble-input-container .input-group {
+     width: calc(95% / 2);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+
+.input-container {
+     margin-bottom: 1.2rem;
+}
+
+.radio-input-container, .checkbox-input-container {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+
+.id-text {
+     margin-bottom: .4rem;
+}
+
+.align-input {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right: .8rem;
+}
+
+.align-input label {
+     color: #f5eeff;
+     margin-right: .3rem;
+     cursor: pointer;
+}
+
+/* CARD */
+
+.card {
+     display: block;
+     width: auto;
+     height: auto;
+     max-height: none;
+     padding: .8rem;
+}
+
+form {
+     padding: 1rem;
+}
+
+form span {
+     color: #bb8dff;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 1090px) {
+     .main-container {
+          padding: 3rem 0;
+     }
+}
+
+@media (max-width: 850px) {
+     body {
+          min-height: 850px;
+     }
+     .checkbox-input-container {
+          justify-content: space-between;
+     }
+}
+
+@media (max-width: 580px) {
+     .duble-input-container {
+          flex-direction: column;
+     }
+     .duble-input-container .input-group  {
+          width: 100%;
+     }
+}
+
+@media (max-width: 390px) {
+     .duble-input-container {
+          flex-direction: row;
+          height: 310px;
+          overflow-y: scroll;
+     }
+}
