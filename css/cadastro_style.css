@@ -1,4 +1,8 @@
 
+body {
+     min-height: 695px;
+}
+
 /* LEFT CONTENT */
 
 .left-content {
@@ -79,33 +83,29 @@ form span {
 /* MEDIA QUERY */
 
 @media (max-width: 1090px) {
+     body {
+          min-height: 800px;
+     }
      .main-container {
           padding: 3rem 0;
      }
 }
 
 @media (max-width: 850px) {
-     body {
-          min-height: 850px;
-     }
      .checkbox-input-container {
           justify-content: space-between;
      }
 }
 
 @media (max-width: 580px) {
+     body {
+          min-height: 900px;
+     }
      .duble-input-container {
-          flex-direction: column;
+          height: 310px;
+          overflow-y: scroll;
      }
      .duble-input-container .input-group  {
           width: 100%;
-     }
-}
-
-@media (max-width: 390px) {
-     .duble-input-container {
-          flex-direction: row;
-          height: 310px;
-          overflow-y: scroll;
      }
 }
