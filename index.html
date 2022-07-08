@@ -5,32 +5,45 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link rel="stylesheet" href="css/style.css">
           <link rel="icon" href="https://www.agrociudad.com/wp-content/uploads/2018/03/perfil.png">
-          <title>Login Page</title>
+          <title>Login</title>
      </head>
      <body>
           <main>
-               <div class="title-and-image">
-                    <h1>Descubra coisas incríveis em nossa plataforma!</h1>
-                    <figure>
-                         <a href="https://storyset.com/user" target="_blank"><img src="img/login-image.svg" alt="Vetor Login" title="User illustrations by Storyset"></a>
-                    </figure>
-               </div>
-               <div class="login-area">
-                    <div class="card">
-                         <h3>Login</h3>
-                         <form method="post" action="">
-                              <label for="user">
-                                   Usuário
-                                   <input type="text" name="username" id="user" placeholder="Digite seu usuário" required>
-                              </label>
-                              <label for="pass">
-                                   Senha
-                                   <input type="password" name="password" id="pass" placeholder="Digite sua senha" required>
-                              </label>
-                              <a href="#">Esqueceu sua senha?</a>
-                              <button type="submit" title="Envio de dados indisponível" disabled>Entrar</button>
-                         </form>
-                         <span>&copy; Todos os direitos reservados - Desenvolvido por <a href="https://luizmeraki.github.io/LuizPortifolio/" target="_blank">Luiz Henrique</a></span>
+               <div class="main-container">
+                    <div class="left-content">
+                         <h1>Descubra coisas incríveis em nossa plataforma!</h1>
+                         <figure class="vector-img">
+                              <img src="img/vector-login.svg" alt="Vetor Login">
+                         </figure>
+                    </div>
+                    <div class="right-content">
+                         <div class="card card-color">
+                              <div class="title">
+                                   <h2>Login</h2>
+                              </div>
+                              <form method="post" action="#">
+                                   <div class="input-container">
+                                        <div class="input-group">
+                                             <label for="user">Usuário</label>
+                                             <input type="text" name="username" id="user" placeholder="Digite seu usuário" required>
+                                        </div>
+                                        <div class="input-group">
+                                             <label for="pass">Senha</label>
+                                             <input type="password" name="password" id="pass" placeholder="Digite sua senha" required>
+                                        </div>
+                                   </div>
+                                   <div class="form-links">
+                                        <a href="#">Esqueceu sua senha?</a>
+                                        <a href="cadastro.html">Não tem uma conta? Cadastre-se</a>
+                                   </div>
+                                   <div class="submit-btn-form">
+                                        <button type="submit" title="Envio de dados indisponível" disabled>Entrar</button>
+                                   </div>
+                              </form>
+                              <div class="footer-card">
+                                   <span>&copy; Todos os direitos reservados - Desenvolvido por <a href="https://luizmeraki.github.io/LuizPortifolio/" target="_blank">Luiz Henrique</a></span>
+                              </div>
+                         </div>
                     </div>
                </div>
           </main>
