@@ -1,4 +1,10 @@
 
+/* MAIN CONTENT */
+
+.main-container {
+     padding: .5rem;
+}
+
 /* LEFT CONTENT */
 
 .left-content {
@@ -22,6 +28,7 @@
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
+     margin-bottom: .5rem;
 }
 
 .duble-input-container .input-group {
@@ -79,11 +86,8 @@ form span {
 /* MEDIA QUERY */
 
 @media (max-width: 1090px) {
-     body {
-          min-height: 800px;
-     }
      .main-container {
-          padding: 3rem 0;
+          padding: 3rem 0 .8rem 0;
      }
 }
 
@@ -97,9 +101,6 @@ form span {
 }
 
 @media (max-width: 580px) {
-     body {
-          min-height: 900px;
-     }
      .duble-input-container {
           height: 310px;
           overflow-y: scroll;
