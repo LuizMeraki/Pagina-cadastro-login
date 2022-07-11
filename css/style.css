@@ -152,19 +152,16 @@ form button:disabled {
      cursor: not-allowed;
 }
 
-form a {
-     width: fit-content;
-     font-size: .9rem;
-     color: #403d8e;
-     text-decoration: none;
-     transition: .3s;
-}
-
 .form-links {
      display: flex;
      flex-direction: column;
      justify-content: space-between;
      gap: .3rem;
+     width: fit-content;
+     font-size: .9rem;
+     color: #4845a0;
+     text-decoration: none;
+     transition: .3s;
 }
 
 .form-links a:hover, .footer-card span a:hover {
