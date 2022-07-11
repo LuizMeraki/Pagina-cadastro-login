@@ -6,6 +6,6 @@ Uma página simples para login de usuários. Você pode usar este projeto em seu
 
 ## Confira a imagem do projeto 🖼:
 
-![image](https://user-images.githubusercontent.com/75648386/176456432-9e5983e9-119a-476b-b6e8-b0844a17a9c4.png)
+![image](https://user-images.githubusercontent.com/75648386/178262756-dc7f437f-6ae3-44b6-bbf5-368e8a604158.png)
 
 🌟 - Espero que tenha gostado! 😆
