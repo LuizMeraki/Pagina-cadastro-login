@@ -157,6 +157,9 @@ form button:disabled {
      flex-direction: column;
      justify-content: space-between;
      gap: .3rem;
+}
+
+.form-links a {
      width: fit-content;
      font-size: .9rem;
      color: #4845a0;
