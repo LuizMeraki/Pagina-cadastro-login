@@ -153,6 +153,7 @@ form button:disabled {
 }
 
 form a {
+     width: fit-content;
      font-size: .9rem;
      color: #403d8e;
      text-decoration: none;
@@ -171,12 +172,14 @@ form a {
 }
 
 .footer-card {
-     text-align: center;
      font-size: 0.7rem;
+     text-align: center;
      margin-top: 1.5rem;
 }
 
 .footer-card span a {
+     font-size: 0.7rem;
+     text-decoration: underline;
      color: #3ca159;
      transition: .3s;
 }
@@ -185,11 +188,7 @@ form a {
 
 @media (max-width: 1090px) {
      body {
-          height: auto;
-          padding: 2.5rem 0;
-     }
-     main {
-          gap: 0;
+          padding: 1.5rem 0;
      }
      .main-container {
           flex-direction: column;

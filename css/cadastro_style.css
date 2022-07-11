@@ -86,6 +86,9 @@ form span {
 /* MEDIA QUERY */
 
 @media (max-width: 1090px) {
+     body {
+          height: auto;
+     }
      .main-container {
           padding: 3rem 0 .8rem 0;
      }
