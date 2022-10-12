@@ -1,4 +1,4 @@
-<h1 align="center">Página para Login 💻</h1>
+<h1 align="center">Login e cadastro 💻</h1>
 
 <br>
 
@@ -39,6 +39,7 @@ Link: <a href="https://luizmeraki.github.io/PaginaLogin/" target="blank">Página
 ## Imagens do projeto
 
 ![image](https://user-images.githubusercontent.com/75648386/178262756-dc7f437f-6ae3-44b6-bbf5-368e8a604158.png)
+![image](https://user-images.githubusercontent.com/75648386/195449595-23e6dd03-d861-4d43-a945-1438966bbc89.png)
 
 <br>
 
