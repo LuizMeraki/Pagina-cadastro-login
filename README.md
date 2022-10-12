@@ -21,7 +21,7 @@
 
 ### Entre no site de login e cadastro
 
-Link: <a href="https://luizmeraki.github.io/PaginaLogin/" target="blank">Página de Login</a>
+Link: <a href="https://luizmeraki.github.io/PaginaLogin/" target="blank">Página de Login e cadastro</a>
 
 <br>
 
