@@ -2,6 +2,8 @@
 
 <br>
 
+![login](https://user-images.githubusercontent.com/75648386/195449244-6146e4e9-c2ed-477d-bd3a-310c2453193f.gif)
+
 <br>
 
 <div align="center">
@@ -15,7 +17,7 @@
 
 ## Sobre
 
-<p>Esta é uma página simples para login e cadastro de usuários</p>
+<p>Esta é uma página simples para login e cadastro de usuários.</p>
 
 ### Entre no site de login e cadastro
 
