@@ -17,7 +17,7 @@
 
 <p>Esta é uma página simples para login e cadastro de usuários</p>
 
-### Entre no site da Sorveteria Gelateria
+### Entre no site de login e cadastro
 
 Link: <a href="https://luizmeraki.github.io/PaginaLogin/" target="blank">Página de Login</a>
 
